@@ -1,0 +1,42 @@
+{
+    "bata-school-shoe":{
+        "name":"School Shoe",
+        "price":"800",
+        "img":""        
+    },
+    "bata-style-shoe":{
+        "name":"Style Shoe",
+        "price":"1200",
+        "img":""        
+    },
+    "servis-style-shoe":{
+        "name":"Style Shoe",
+        "price":"1100",
+        "img":""        
+    },
+    "servis-school-shoe":{
+        "name":"School Shoe",
+        "price":"1500",
+        "img":""        
+    },
+    "bata-school-shoe2":{
+        "name":"School Shoe",
+        "price":"800",
+        "img":""        
+    },
+    "bata-style-shoe2":{
+        "name":"Style Shoe",
+        "price":"1200",
+        "img":""        
+    },
+    "servis-style-shoe1":{
+        "name":"Style Shoe",
+        "price":"1100",
+        "img":""        
+    },
+    "servis-school-shoe1":{
+        "name":"School Shoe",
+        "price":"1500",
+        "img":""        
+    }
+}
