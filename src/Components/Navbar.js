@@ -5,7 +5,7 @@ import Cart from './imgs/cart.svg';
 import {Link} from 'react-router-dom';
 import './css/Navbar.css'
 const Navbar = () => {
-   const [toggle,Settoggle]=useState(true);
+   const [toggle,Settoggle]=useState(false);
    console.log(toggle)
     return (
         <navbar>
