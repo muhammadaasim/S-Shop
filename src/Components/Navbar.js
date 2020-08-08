@@ -3,6 +3,7 @@ import Menu from './imgs/menu.svg';
 import Close from './imgs/close.svg';
 import Cart from './imgs/cart.svg';
 import {Link} from 'react-router-dom';
+
 import './css/Navbar.css'
 const Navbar = () => {
    const [toggle,Settoggle]=useState(false);
@@ -17,16 +18,16 @@ const Navbar = () => {
         </div>
         <nav>
             <ul className={toggle ? "toggle":""}>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/product">Products</Link></li>
-                <li><Link to="/about">About</Link></li>
+                <li><Link to="/"  onClick={()=>Settoggle(!toggle)}>Home</Link></li>
+                <li><Link to="/product"  onClick={()=>Settoggle(!toggle)}>Products</Link></li>
+                <li><Link to="/about"  onClick={()=>Settoggle(!toggle)}>About</Link></li>
                 <li className="close" onClick={()=>Settoggle(!toggle)}>
                     <img src={Close} width="20" alt="Close"/>
                 </li>
             </ul>
             <div className="nav-cart">
                 <span>0</span>
-                <Link to="/cart">
+                <Link to="/cart"  onClick={()=>Settoggle(!toggle)}>
                 <img src={Cart} alt="cart" width="20"/>
                 </Link>
             </div>
